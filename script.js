@@ -1,6 +1,6 @@
 const sange = [
   {
-    titel: "Antenner på Montejunto",
+    titel: "Antenner på Montejunto TTTT",
     fil: "musik/1. Antenner på Montejunto.mp3",
     bpm: 88,
     billeder: [
