@@ -76,7 +76,7 @@ function visBilledeVedTakt(tid) {
   const billeder = sang.billeder;
   if (!bpm || billeder.length === 0) return;
 
-  const taktLængde = (60 / bpm) * 8;
+  const taktLængde = (60 / bpm) * 4;
   const taktNummer = Math.floor(tid / taktLængde);
   const billedIndex = taktNummer % billeder.length;
   const valgtSrc = billeder[billedIndex];
