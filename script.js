@@ -174,6 +174,10 @@ fremBtn.addEventListener("click", () => {
   }
 });
 
+afspiller.addEventListener("playing", () => {
+  sidstVisteBilledIndex = -1;
+});
+
 function opdaterTid() {
   const nu = formaterTid(afspiller.currentTime);
   const total = formaterTid(afspiller.duration || 0);
